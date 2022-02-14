@@ -78,8 +78,8 @@ BasketDevice.belongsTo(Device)
 Device.hasMany(DeviceInfo);
 DeviceInfo.belongsTo(Device)
 
-Type.belongsToMany(Brand, {through: TypeBrand})
-Brand.belongsToMany(Type, {through: TypeBrand})
+Type.belongsToMany(Brand, {through: TypeBrand}) //Type, options
+Brand.belongsToMany(Type, {through: TypeBrand}) //Type, options
 
 module.exports = {
     User,
