@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
@@ -20,6 +21,14 @@
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.16.1",
     "uuid": "^8.3.2"
+=======
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.16.1"
+>>>>>>> f9e7968d61f3f0cdf0f0d947c835af8ec68de9e8
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
